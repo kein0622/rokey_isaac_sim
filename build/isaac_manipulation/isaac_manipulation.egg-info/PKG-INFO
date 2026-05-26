@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: isaac_manipulation
+Version: 0.0.1
+Summary: Manipulation package: M0609 arm executor + primitives.
+Maintainer: jimjimjinger
+Maintainer-email: jimjimjinger@users.noreply.github.com
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

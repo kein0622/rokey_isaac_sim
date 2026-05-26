@@ -1,0 +1,22 @@
+[1.484s] Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_perception': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_perception/build --no-deps symlink_data
+[1.749s] running develop
+[1.898s] running egg_info
+[1.910s] creating isaac_perception.egg-info
+[1.910s] writing isaac_perception.egg-info/PKG-INFO
+[1.911s] writing dependency_links to isaac_perception.egg-info/dependency_links.txt
+[1.911s] writing entry points to isaac_perception.egg-info/entry_points.txt
+[1.911s] writing requirements to isaac_perception.egg-info/requires.txt
+[1.911s] writing top-level names to isaac_perception.egg-info/top_level.txt
+[1.911s] writing manifest file 'isaac_perception.egg-info/SOURCES.txt'
+[1.935s] reading manifest file 'isaac_perception.egg-info/SOURCES.txt'
+[1.936s] writing manifest file 'isaac_perception.egg-info/SOURCES.txt'
+[1.950s] running build_ext
+[1.950s] Creating /home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages/isaac-perception.egg-link (link to .)
+[1.951s] Installing perception_node script to /home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/isaac_perception
+[1.951s] 
+[1.951s] Installed /home/kimi/dev_ws/rover_ws/build/isaac_perception
+[1.951s] running symlink_data
+[1.951s] creating /home/kimi/dev_ws/rover_ws/install/isaac_perception/share/ament_index/resource_index/packages
+[1.951s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_perception/resource/isaac_perception -> /home/kimi/dev_ws/rover_ws/install/isaac_perception/share/ament_index/resource_index/packages
+[1.952s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_perception/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception
+[2.013s] Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_perception' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_perception/build --no-deps symlink_data

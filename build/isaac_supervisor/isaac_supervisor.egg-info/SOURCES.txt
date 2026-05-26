@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+isaac_supervisor/__init__.py
+isaac_supervisor/battery_monitor_node.py
+isaac_supervisor/mission_manager_node.py
+isaac_supervisor.egg-info/PKG-INFO
+isaac_supervisor.egg-info/SOURCES.txt
+isaac_supervisor.egg-info/dependency_links.txt
+isaac_supervisor.egg-info/entry_points.txt
+isaac_supervisor.egg-info/requires.txt
+isaac_supervisor.egg-info/top_level.txt
+isaac_supervisor.egg-info/zip-safe
+resource/isaac_supervisor

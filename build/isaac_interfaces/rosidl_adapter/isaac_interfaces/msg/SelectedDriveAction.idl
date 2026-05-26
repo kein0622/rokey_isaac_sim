@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isaac_interfaces/msg/SelectedDriveAction.msg
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module msg {
+    struct SelectedDriveAction {
+      string action;
+
+      float target_x;
+
+      float target_y;
+
+      float target_yaw;
+
+      float linear_velocity;
+
+      float angular_velocity;
+
+      float confidence;
+
+      string reason;
+    };
+  };
+};

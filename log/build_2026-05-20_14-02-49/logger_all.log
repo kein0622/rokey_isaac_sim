@@ -1,0 +1,678 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b24da166920>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b24da166380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b24da166380>>)
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.122s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kimi/dev_ws/rover_ws'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/flowcharts) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/interfaces/msg) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/pm_tools) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/docs/tracks) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_bringup) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_bringup' with type 'ros.ament_python' and name 'isaac_bringup'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_drive) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_drive' with type 'ros.ament_python' and name 'isaac_drive'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_interfaces) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_interfaces' with type 'ros.ament_cmake' and name 'isaac_interfaces'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_localization) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_localization' with type 'ros.ament_python' and name 'isaac_localization'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_manipulation) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_manipulation' with type 'ros.ament_python' and name 'isaac_manipulation'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_perception) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_perception' with type 'ros.ament_python' and name 'isaac_perception'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_rl) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_rl' with type 'ros.ament_python' and name 'isaac_rl'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_sim) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_sim' with type 'ros.ament_python' and name 'isaac_sim'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/a2_isaac/isaac_supervisor) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/a2_isaac/isaac_supervisor' with type 'ros.ament_python' and name 'isaac_supervisor'
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.156s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 421 installed packages in /opt/ros/humble
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_bringup', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_drive', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_drive', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_localization', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_localization', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_manipulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_manipulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_manipulation', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_perception', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_perception', 'symlink_install': True, 'test_result_base': None}
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_target' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_clean_first' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'cmake_force_configure' from command line to 'False'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'ament_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.187s] Level 5:colcon.colcon_core.verb:set package 'isaac_rl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.187s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_rl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_rl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_rl', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_rl', 'symlink_install': True, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_sim', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_sim', 'symlink_install': True, 'test_result_base': None}
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'isaac_supervisor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'isaac_supervisor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor', 'merge_install': False, 'path': '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_supervisor', 'symlink_install': True, 'test_result_base': None}
+[0.188s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces' with build type 'ament_cmake'
+[0.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces'
+[0.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_bringup' with build type 'ament_python'
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_bringup', 'ament_prefix_path')
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/ament_prefix_path.ps1'
+[0.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/ament_prefix_path.dsv'
+[0.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/ament_prefix_path.sh'
+[0.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kimi/dev_ws/rover_ws/build/isaac_interfaces -- -j16 -l16
+[0.328s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_bringup'
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_bringup': PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_bringup/build --no-deps symlink_data
+[1.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_bringup', 'pythonpath_develop')
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_bringup/share/isaac_bringup/hook/pythonpath_develop.ps1'
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_bringup' returned '0': PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_bringup/build --no-deps symlink_data
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_bringup/share/isaac_bringup/hook/pythonpath_develop.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_bringup/share/isaac_bringup/hook/pythonpath_develop.sh'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup' for CMake module files
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup' for CMake config files
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/bin'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib/pkgconfig/isaac_bringup.pc'
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib/python3.10/site-packages'
+[1.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_bringup', 'pythonpath')
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/pythonpath.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/pythonpath.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/hook/pythonpath.sh'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/bin'
+[1.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_bringup)
+[1.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/package.ps1'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/package.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/package.sh'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/package.bash'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/package.zsh'
+[1.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/colcon-core/packages/isaac_bringup)
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kimi/dev_ws/rover_ws/build/isaac_interfaces -- -j16 -l16
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kimi/dev_ws/rover_ws/build/isaac_interfaces
+[1.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_interfaces)
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kimi/dev_ws/rover_ws/build/isaac_interfaces
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces' for CMake module files
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces' for CMake config files
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_interfaces', 'cmake_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.sh'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_interfaces', 'ld_library_path_lib')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib/pkgconfig/isaac_interfaces.pc'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib/python3.10/site-packages'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/bin'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.sh'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.bash'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.zsh'
+[1.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/colcon-core/packages/isaac_interfaces)
+[1.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_interfaces)
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces' for CMake module files
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces' for CMake config files
+[1.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_interfaces', 'cmake_prefix_path')
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_interfaces', 'ld_library_path_lib')
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/hook/ld_library_path_lib.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/bin'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib/pkgconfig/isaac_interfaces.pc'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib/python3.10/site-packages'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/bin'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.bash'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/isaac_interfaces/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/share/colcon-core/packages/isaac_interfaces)
+[1.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_drive' with build type 'ament_python'
+[1.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_drive', 'ament_prefix_path')
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/ament_prefix_path.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/ament_prefix_path.dsv'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/ament_prefix_path.sh'
+[1.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_localization' with build type 'ament_python'
+[1.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_localization', 'ament_prefix_path')
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/ament_prefix_path.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/ament_prefix_path.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/ament_prefix_path.sh'
+[1.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.483s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_manipulation' with build type 'ament_python'
+[1.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_manipulation', 'ament_prefix_path')
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/ament_prefix_path.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/ament_prefix_path.dsv'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/ament_prefix_path.sh'
+[1.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.486s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_perception' with build type 'ament_python'
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_perception', 'ament_prefix_path')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/ament_prefix_path.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/ament_prefix_path.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/ament_prefix_path.sh'
+[1.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.490s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_rl' with build type 'ament_python'
+[1.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_rl', 'ament_prefix_path')
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/ament_prefix_path.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/ament_prefix_path.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/ament_prefix_path.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.493s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_sim' with build type 'ament_python'
+[1.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_sim', 'ament_prefix_path')
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/ament_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/ament_prefix_path.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/ament_prefix_path.sh'
+[1.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_supervisor' with build type 'ament_python'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_supervisor', 'ament_prefix_path')
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/ament_prefix_path.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/ament_prefix_path.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/ament_prefix_path.sh'
+[1.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.614s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_drive'
+[1.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_localization'
+[1.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.841s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_manipulation'
+[1.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.954s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_perception'
+[1.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.069s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_rl'
+[2.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_sim'
+[2.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.308s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_supervisor'
+[2.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_rl': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_rl/build --no-deps symlink_data
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data
+[2.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_drive': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_drive/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_drive/build --no-deps symlink_data
+[2.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/build --no-deps symlink_data
+[2.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_sim': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_sim/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_sim/build --no-deps symlink_data
+[2.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_perception': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_perception/build --no-deps symlink_data
+[2.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_manipulation/build --no-deps symlink_data
+[3.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_drive', 'pythonpath_develop')
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_drive/share/isaac_drive/hook/pythonpath_develop.ps1'
+[3.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_drive' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_drive/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_drive/build --no-deps symlink_data
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_drive/share/isaac_drive/hook/pythonpath_develop.dsv'
+[3.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_drive/share/isaac_drive/hook/pythonpath_develop.sh'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive' for CMake module files
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive' for CMake config files
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive/lib'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive/bin'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive/lib/pkgconfig/isaac_drive.pc'
+[3.008s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive/lib/python3.10/site-packages'
+[3.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_drive', 'pythonpath')
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/pythonpath.ps1'
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/pythonpath.dsv'
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/hook/pythonpath.sh'
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_drive/bin'
+[3.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_drive)
+[3.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/package.ps1'
+[3.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/package.dsv'
+[3.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/package.sh'
+[3.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/package.bash'
+[3.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/isaac_drive/package.zsh'
+[3.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_drive/share/colcon-core/packages/isaac_drive)
+[3.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_localization', 'pythonpath_develop')
+[3.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_localization/share/isaac_localization/hook/pythonpath_develop.ps1'
+[3.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_localization/share/isaac_localization/hook/pythonpath_develop.dsv'
+[3.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_localization/share/isaac_localization/hook/pythonpath_develop.sh'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization' for CMake module files
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization' for CMake config files
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib'
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization/bin'
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/pkgconfig/isaac_localization.pc'
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages'
+[3.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_localization', 'pythonpath')
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/pythonpath.ps1'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/pythonpath.dsv'
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/hook/pythonpath.sh'
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_localization/bin'
+[3.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_localization)
+[3.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/package.ps1'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/package.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/package.sh'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/package.bash'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization/package.zsh'
+[3.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_localization/share/colcon-core/packages/isaac_localization)
+[3.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_rl', 'pythonpath_develop')
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_rl/share/isaac_rl/hook/pythonpath_develop.ps1'
+[3.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_rl/share/isaac_rl/hook/pythonpath_develop.dsv'
+[3.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_rl' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_rl/build --no-deps symlink_data
+[3.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_rl/share/isaac_rl/hook/pythonpath_develop.sh'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl' for CMake module files
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl' for CMake config files
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl/bin'
+[3.019s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/pkgconfig/isaac_rl.pc'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages'
+[3.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_rl', 'pythonpath')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/pythonpath.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/pythonpath.dsv'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/hook/pythonpath.sh'
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_rl/bin'
+[3.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_rl)
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/package.ps1'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/package.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/package.sh'
+[3.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/package.bash'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl/package.zsh'
+[3.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_rl/share/colcon-core/packages/isaac_rl)
+[3.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_perception', 'pythonpath_develop')
+[3.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_perception/share/isaac_perception/hook/pythonpath_develop.ps1'
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_perception/share/isaac_perception/hook/pythonpath_develop.dsv'
+[3.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_perception' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_perception/build --no-deps symlink_data
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_perception/share/isaac_perception/hook/pythonpath_develop.sh'
+[3.023s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception' for CMake module files
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception' for CMake config files
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception/bin'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/pkgconfig/isaac_perception.pc'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception/lib/python3.10/site-packages'
+[3.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_perception', 'pythonpath')
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/pythonpath.ps1'
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/pythonpath.dsv'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/hook/pythonpath.sh'
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_perception/bin'
+[3.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_perception)
+[3.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/package.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/package.dsv'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/package.sh'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/package.bash'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/isaac_perception/package.zsh'
+[3.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_perception/share/colcon-core/packages/isaac_perception)
+[3.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_sim', 'pythonpath_develop')
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_sim/share/isaac_sim/hook/pythonpath_develop.ps1'
+[3.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_sim' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_sim/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_sim/build --no-deps symlink_data
+[3.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_sim/share/isaac_sim/hook/pythonpath_develop.dsv'
+[3.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_sim/share/isaac_sim/hook/pythonpath_develop.sh'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim' for CMake module files
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim' for CMake config files
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim/lib'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim/bin'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim/lib/pkgconfig/isaac_sim.pc'
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim/lib/python3.10/site-packages'
+[3.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_sim', 'pythonpath')
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/pythonpath.ps1'
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/pythonpath.dsv'
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/hook/pythonpath.sh'
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_sim/bin'
+[3.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_sim)
+[3.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/package.ps1'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/package.dsv'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/package.sh'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/package.bash'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/isaac_sim/package.zsh'
+[3.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_sim/share/colcon-core/packages/isaac_sim)
+[3.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_supervisor', 'pythonpath_develop')
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/share/isaac_supervisor/hook/pythonpath_develop.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/share/isaac_supervisor/hook/pythonpath_develop.dsv'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/share/isaac_supervisor/hook/pythonpath_develop.sh'
+[3.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/build --no-deps symlink_data
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor' for CMake module files
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor' for CMake config files
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/bin'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/pkgconfig/isaac_supervisor.pc'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages'
+[3.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_supervisor', 'pythonpath')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/pythonpath.ps1'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/pythonpath.dsv'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/hook/pythonpath.sh'
+[3.034s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/bin'
+[3.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_supervisor)
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/package.ps1'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/package.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/package.sh'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/package.bash'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor/package.zsh'
+[3.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/colcon-core/packages/isaac_supervisor)
+[3.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_manipulation', 'pythonpath_develop')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation/share/isaac_manipulation/hook/pythonpath_develop.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation/share/isaac_manipulation/hook/pythonpath_develop.dsv'
+[3.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_manipulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_manipulation/build --no-deps symlink_data
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/build/isaac_manipulation/share/isaac_manipulation/hook/pythonpath_develop.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation' for CMake module files
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation' for CMake config files
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/bin'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/pkgconfig/isaac_manipulation.pc'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/python3.10/site-packages'
+[3.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('isaac_manipulation', 'pythonpath')
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/pythonpath.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/pythonpath.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/hook/pythonpath.sh'
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/bin'
+[3.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(isaac_manipulation)
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/package.ps1'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/package.dsv'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/package.sh'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/package.bash'
+[3.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/isaac_manipulation/package.zsh'
+[3.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimi/dev_ws/rover_ws/install/isaac_manipulation/share/colcon-core/packages/isaac_manipulation)
+[3.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.042s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.047s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.055s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimi/dev_ws/rover_ws/install/local_setup.ps1'
+[3.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimi/dev_ws/rover_ws/install/_local_setup_util_ps1.py'
+[3.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimi/dev_ws/rover_ws/install/setup.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimi/dev_ws/rover_ws/install/local_setup.sh'
+[3.057s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimi/dev_ws/rover_ws/install/_local_setup_util_sh.py'
+[3.058s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimi/dev_ws/rover_ws/install/setup.sh'
+[3.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimi/dev_ws/rover_ws/install/local_setup.bash'
+[3.058s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimi/dev_ws/rover_ws/install/setup.bash'
+[3.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimi/dev_ws/rover_ws/install/local_setup.zsh'
+[3.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimi/dev_ws/rover_ws/install/setup.zsh'

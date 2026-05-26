@@ -1,0 +1,4 @@
+Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kimi/dev_ws/rover_ws/build/isaac_interfaces -- -j16 -l16
+Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kimi/dev_ws/rover_ws/build/isaac_interfaces -- -j16 -l16
+Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kimi/dev_ws/rover_ws/build/isaac_interfaces
+Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kimi/dev_ws/rover_ws/build/isaac_interfaces

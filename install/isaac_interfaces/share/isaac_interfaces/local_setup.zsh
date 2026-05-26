@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/build/isaac_interfaces/ament_cmake_environment_hooks/local_setup.zsh

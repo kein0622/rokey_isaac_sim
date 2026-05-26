@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/build/isaac_interfaces/ament_cmake_core/isaac_interfacesConfig-version.cmake

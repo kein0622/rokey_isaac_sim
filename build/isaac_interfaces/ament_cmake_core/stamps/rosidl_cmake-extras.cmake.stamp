@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(isaac_interfaces_IDL_FILES "msg/BatteryState.idl;msg/MissionState.idl;msg/PerceptionResult.idl;msg/SelectedDriveAction.idl;srv/CheckSystemReady.idl;srv/ResetSimulation.idl;srv/SaveExplorationMap.idl;action/ExecuteArmTask.idl;action/ExecuteDriveTask.idl;action/NavigateTask.idl")
+set(isaac_interfaces_INTERFACE_FILES "msg/BatteryState.msg;msg/MissionState.msg;msg/PerceptionResult.msg;msg/SelectedDriveAction.msg;srv/CheckSystemReady.srv;srv/CheckSystemReady_Request.msg;srv/CheckSystemReady_Response.msg;srv/ResetSimulation.srv;srv/ResetSimulation_Request.msg;srv/ResetSimulation_Response.msg;srv/SaveExplorationMap.srv;srv/SaveExplorationMap_Request.msg;srv/SaveExplorationMap_Response.msg;action/ExecuteArmTask.action;action/ExecuteDriveTask.action;action/NavigateTask.action")

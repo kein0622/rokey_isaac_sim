@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_bringup/launch/manipulation.launch.py

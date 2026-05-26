@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing isaac_rl.egg-info/PKG-INFO
+writing dependency_links to isaac_rl.egg-info/dependency_links.txt
+writing entry points to isaac_rl.egg-info/entry_points.txt
+writing requirements to isaac_rl.egg-info/requires.txt
+writing top-level names to isaac_rl.egg-info/top_level.txt
+reading manifest file 'isaac_rl.egg-info/SOURCES.txt'
+writing manifest file 'isaac_rl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages/isaac-rl.egg-link (link to .)
+Installing driving_policy_node script to /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/isaac_rl
+Installing rl_trainer script to /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/isaac_rl
+
+Installed /home/kimi/dev_ws/rover_ws/build/isaac_rl
+running symlink_data

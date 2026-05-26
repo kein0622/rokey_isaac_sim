@@ -1,0 +1,23 @@
+[1.489s] Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/build --no-deps symlink_data
+[1.780s] running develop
+[1.925s] running egg_info
+[1.937s] creating isaac_supervisor.egg-info
+[1.937s] writing isaac_supervisor.egg-info/PKG-INFO
+[1.937s] writing dependency_links to isaac_supervisor.egg-info/dependency_links.txt
+[1.937s] writing entry points to isaac_supervisor.egg-info/entry_points.txt
+[1.938s] writing requirements to isaac_supervisor.egg-info/requires.txt
+[1.938s] writing top-level names to isaac_supervisor.egg-info/top_level.txt
+[1.938s] writing manifest file 'isaac_supervisor.egg-info/SOURCES.txt'
+[1.963s] reading manifest file 'isaac_supervisor.egg-info/SOURCES.txt'
+[1.963s] writing manifest file 'isaac_supervisor.egg-info/SOURCES.txt'
+[1.977s] running build_ext
+[1.978s] Creating /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages/isaac-supervisor.egg-link (link to .)
+[1.978s] Installing battery_monitor_node script to /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/isaac_supervisor
+[1.978s] Installing mission_manager_node script to /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/isaac_supervisor
+[1.978s] 
+[1.979s] Installed /home/kimi/dev_ws/rover_ws/build/isaac_supervisor
+[1.979s] running symlink_data
+[1.979s] creating /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/ament_index/resource_index/packages
+[1.979s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/resource/isaac_supervisor -> /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/ament_index/resource_index/packages
+[1.979s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_supervisor/share/isaac_supervisor
+[2.029s] Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_supervisor' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_supervisor/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_supervisor/build --no-deps symlink_data

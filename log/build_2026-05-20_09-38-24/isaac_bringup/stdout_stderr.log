@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating isaac_bringup.egg-info
+writing isaac_bringup.egg-info/PKG-INFO
+writing dependency_links to isaac_bringup.egg-info/dependency_links.txt
+writing requirements to isaac_bringup.egg-info/requires.txt
+writing top-level names to isaac_bringup.egg-info/top_level.txt
+writing manifest file 'isaac_bringup.egg-info/SOURCES.txt'
+reading manifest file 'isaac_bringup.egg-info/SOURCES.txt'
+writing manifest file 'isaac_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimi/dev_ws/rover_ws/install/isaac_bringup/lib/python3.10/site-packages/isaac-bringup.egg-link (link to .)
+
+Installed /home/kimi/dev_ws/rover_ws/build/isaac_bringup
+running symlink_data
+creating /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/resource/isaac_bringup -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup
+creating /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/full_system.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/sim.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/perception.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/rl.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/drive.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/supervisor.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/manipulation.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_bringup/launch/localization.launch.py -> /home/kimi/dev_ws/rover_ws/install/isaac_bringup/share/isaac_bringup/launch

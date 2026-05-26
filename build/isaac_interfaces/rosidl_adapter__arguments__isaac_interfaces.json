@@ -1,0 +1,15 @@
+{
+  "package_name": "isaac_interfaces",
+  "non_idl_tuples": [
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:msg/BatteryState.msg",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:msg/MissionState.msg",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:msg/PerceptionResult.msg",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:msg/SelectedDriveAction.msg",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:srv/CheckSystemReady.srv",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:srv/ResetSimulation.srv",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:srv/SaveExplorationMap.srv",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:action/ExecuteArmTask.action",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:action/ExecuteDriveTask.action",
+    "/home/kimi/dev_ws/rover_ws/src/a2_isaac/isaac_interfaces:action/NavigateTask.action"
+  ]
+}

@@ -1,0 +1,23 @@
+[1.569s] Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_rl': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_rl/build --no-deps symlink_data
+[1.830s] running develop
+[1.987s] running egg_info
+[1.999s] creating isaac_rl.egg-info
+[2.000s] writing isaac_rl.egg-info/PKG-INFO
+[2.000s] writing dependency_links to isaac_rl.egg-info/dependency_links.txt
+[2.001s] writing entry points to isaac_rl.egg-info/entry_points.txt
+[2.001s] writing requirements to isaac_rl.egg-info/requires.txt
+[2.001s] writing top-level names to isaac_rl.egg-info/top_level.txt
+[2.001s] writing manifest file 'isaac_rl.egg-info/SOURCES.txt'
+[2.025s] reading manifest file 'isaac_rl.egg-info/SOURCES.txt'
+[2.026s] writing manifest file 'isaac_rl.egg-info/SOURCES.txt'
+[2.038s] running build_ext
+[2.038s] Creating /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages/isaac-rl.egg-link (link to .)
+[2.039s] Installing driving_policy_node script to /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/isaac_rl
+[2.039s] Installing rl_trainer script to /home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/isaac_rl
+[2.039s] 
+[2.039s] Installed /home/kimi/dev_ws/rover_ws/build/isaac_rl
+[2.039s] running symlink_data
+[2.039s] creating /home/kimi/dev_ws/rover_ws/install/isaac_rl/share/ament_index/resource_index/packages
+[2.040s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_rl/resource/isaac_rl -> /home/kimi/dev_ws/rover_ws/install/isaac_rl/share/ament_index/resource_index/packages
+[2.040s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_rl/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_rl/share/isaac_rl
+[2.071s] Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_rl' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_rl/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_rl/build --no-deps symlink_data

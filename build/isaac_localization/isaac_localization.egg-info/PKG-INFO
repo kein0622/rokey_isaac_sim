@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: isaac_localization
+Version: 0.0.1
+Summary: Localization: TRN + EKF multi-sensor fusion (Wheel/IMU/Sun).
+Maintainer: jimjimjinger
+Maintainer-email: jimjimjinger@users.noreply.github.com
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

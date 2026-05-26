@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing isaac_manipulation.egg-info/PKG-INFO
+writing dependency_links to isaac_manipulation.egg-info/dependency_links.txt
+writing entry points to isaac_manipulation.egg-info/entry_points.txt
+writing requirements to isaac_manipulation.egg-info/requires.txt
+writing top-level names to isaac_manipulation.egg-info/top_level.txt
+reading manifest file 'isaac_manipulation.egg-info/SOURCES.txt'
+writing manifest file 'isaac_manipulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/python3.10/site-packages/isaac-manipulation.egg-link (link to .)
+Installing arm_executor_node script to /home/kimi/dev_ws/rover_ws/install/isaac_manipulation/lib/isaac_manipulation
+
+Installed /home/kimi/dev_ws/rover_ws/build/isaac_manipulation
+running symlink_data

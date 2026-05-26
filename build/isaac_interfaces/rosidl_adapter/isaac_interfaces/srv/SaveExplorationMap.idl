@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from isaac_interfaces/srv/SaveExplorationMap.srv
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module srv {
+    struct SaveExplorationMap_Request {
+      string map_name;
+
+      string target_path;
+    };
+    struct SaveExplorationMap_Response {
+      boolean success;
+
+      string saved_path;
+
+      string message;
+    };
+  };
+};

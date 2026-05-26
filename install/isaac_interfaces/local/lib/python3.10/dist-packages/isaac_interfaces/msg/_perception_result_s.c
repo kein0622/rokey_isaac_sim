@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/build/isaac_interfaces/rosidl_generator_py/isaac_interfaces/msg/_perception_result_s.c

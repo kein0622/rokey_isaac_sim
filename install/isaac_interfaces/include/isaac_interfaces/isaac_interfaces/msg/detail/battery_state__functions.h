@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/build/isaac_interfaces/rosidl_generator_c/isaac_interfaces/msg/detail/battery_state__functions.h

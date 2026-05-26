@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from isaac_interfaces/action/NavigateTask.action
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module action {
+    struct NavigateTask_Goal {
+      string command;
+
+      float target_x;
+
+      float target_y;
+
+      float target_yaw;
+
+      string target_id;
+
+      string metadata;
+    };
+    struct NavigateTask_Result {
+      boolean success;
+
+      string message;
+    };
+    struct NavigateTask_Feedback {
+      string state;
+
+      float progress;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isaac_interfaces/msg/PerceptionResult.msg
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module msg {
+    struct PerceptionResult {
+      boolean mineral_detected;
+
+      string object_id;
+
+      string object_type;
+
+      float confidence;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      boolean obstacle_detected;
+
+      float obstacle_distance;
+
+      boolean terrain_traversable;
+
+      float terrain_slope;
+    };
+  };
+};

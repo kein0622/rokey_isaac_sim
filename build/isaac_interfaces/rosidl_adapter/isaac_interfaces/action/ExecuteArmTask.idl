@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from isaac_interfaces/action/ExecuteArmTask.action
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module action {
+    struct ExecuteArmTask_Goal {
+      string command;
+
+      string target_id;
+
+      float target_x;
+
+      float target_y;
+
+      float target_z;
+
+      string metadata;
+    };
+    struct ExecuteArmTask_Result {
+      boolean success;
+
+      string message;
+    };
+    struct ExecuteArmTask_Feedback {
+      string state;
+
+      float progress;
+
+      string message;
+    };
+  };
+};

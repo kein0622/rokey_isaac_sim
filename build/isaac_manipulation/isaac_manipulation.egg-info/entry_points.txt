@@ -1,0 +1,2 @@
+[console_scripts]
+arm_executor_node = isaac_manipulation.arm_executor_node:main

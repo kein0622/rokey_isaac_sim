@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from isaac_interfaces/srv/CheckSystemReady.srv
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module srv {
+    struct CheckSystemReady_Request {
+      string requester;
+    };
+    struct CheckSystemReady_Response {
+      boolean ready;
+
+      sequence<string> missing_nodes;
+
+      string message;
+    };
+  };
+};

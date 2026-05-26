@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from isaac_interfaces/srv/ResetSimulation.srv
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module srv {
+    struct ResetSimulation_Request {
+      boolean reset_world;
+
+      boolean reset_robot;
+
+      boolean reset_mission;
+
+      string reason;
+    };
+    struct ResetSimulation_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+[1.490s] Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data
+[1.763s] running develop
+[1.920s] running egg_info
+[1.935s] creating isaac_localization.egg-info
+[1.936s] writing isaac_localization.egg-info/PKG-INFO
+[1.936s] writing dependency_links to isaac_localization.egg-info/dependency_links.txt
+[1.936s] writing entry points to isaac_localization.egg-info/entry_points.txt
+[1.936s] writing requirements to isaac_localization.egg-info/requires.txt
+[1.937s] writing top-level names to isaac_localization.egg-info/top_level.txt
+[1.937s] writing manifest file 'isaac_localization.egg-info/SOURCES.txt'
+[1.965s] reading manifest file 'isaac_localization.egg-info/SOURCES.txt'
+[1.966s] writing manifest file 'isaac_localization.egg-info/SOURCES.txt'
+[1.980s] running build_ext
+[1.980s] Creating /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages/isaac-localization.egg-link (link to .)
+[1.981s] Installing localization_node script to /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/isaac_localization
+[1.982s] 
+[1.982s] Installed /home/kimi/dev_ws/rover_ws/build/isaac_localization
+[1.982s] running symlink_data
+[1.982s] creating /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/ament_index/resource_index/packages
+[1.982s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_localization/resource/isaac_localization -> /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/ament_index/resource_index/packages
+[1.982s] symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_localization/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization
+[2.036s] Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization' returned '0': AMENT_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces LD_LIBRARY_PATH=/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:/home/kimi/dev_ws/rover_ws/install/isaac_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data

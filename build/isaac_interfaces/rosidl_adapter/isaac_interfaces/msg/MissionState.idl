@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isaac_interfaces/msg/MissionState.msg
+// generated code does not contain a copyright notice
+
+
+module isaac_interfaces {
+  module msg {
+    struct MissionState {
+      string state;
+
+      string previous_state;
+
+      float battery_percent;
+
+      boolean low_battery;
+
+      boolean critical_battery;
+
+      int32 cargo_count;
+
+      int32 cargo_capacity;
+
+      int32 collected_count;
+
+      int32 collection_goal;
+
+      string active_task;
+
+      string last_error;
+    };
+  };
+};

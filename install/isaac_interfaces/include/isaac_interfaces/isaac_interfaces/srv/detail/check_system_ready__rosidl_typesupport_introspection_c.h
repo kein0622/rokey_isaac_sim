@@ -1,0 +1,1 @@
+/home/kimi/dev_ws/rover_ws/build/isaac_interfaces/rosidl_typesupport_introspection_c/isaac_interfaces/srv/detail/check_system_ready__rosidl_typesupport_introspection_c.h

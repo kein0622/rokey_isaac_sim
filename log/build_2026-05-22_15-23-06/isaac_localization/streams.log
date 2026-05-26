@@ -1,0 +1,17 @@
+[0.559s] Invoking command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization': PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data
+[0.746s] running develop
+[0.852s] running egg_info
+[0.860s] writing isaac_localization.egg-info/PKG-INFO
+[0.861s] writing dependency_links to isaac_localization.egg-info/dependency_links.txt
+[0.861s] writing entry points to isaac_localization.egg-info/entry_points.txt
+[0.861s] writing requirements to isaac_localization.egg-info/requires.txt
+[0.861s] writing top-level names to isaac_localization.egg-info/top_level.txt
+[0.877s] reading manifest file 'isaac_localization.egg-info/SOURCES.txt'
+[0.878s] writing manifest file 'isaac_localization.egg-info/SOURCES.txt'
+[0.886s] running build_ext
+[0.886s] Creating /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages/isaac-localization.egg-link (link to .)
+[0.887s] Installing localization_node script to /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/isaac_localization
+[0.887s] 
+[0.887s] Installed /home/kimi/dev_ws/rover_ws/build/isaac_localization
+[0.887s] running symlink_data
+[0.909s] Invoked command in '/home/kimi/dev_ws/rover_ws/build/isaac_localization' returned '0': PYTHONPATH=/home/kimi/dev_ws/rover_ws/build/isaac_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kimi/dev_ws/rover_ws/build/isaac_localization/build --no-deps symlink_data

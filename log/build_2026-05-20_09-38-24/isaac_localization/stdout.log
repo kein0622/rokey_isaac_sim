@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating isaac_localization.egg-info
+writing isaac_localization.egg-info/PKG-INFO
+writing dependency_links to isaac_localization.egg-info/dependency_links.txt
+writing entry points to isaac_localization.egg-info/entry_points.txt
+writing requirements to isaac_localization.egg-info/requires.txt
+writing top-level names to isaac_localization.egg-info/top_level.txt
+writing manifest file 'isaac_localization.egg-info/SOURCES.txt'
+reading manifest file 'isaac_localization.egg-info/SOURCES.txt'
+writing manifest file 'isaac_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/python3.10/site-packages/isaac-localization.egg-link (link to .)
+Installing localization_node script to /home/kimi/dev_ws/rover_ws/install/isaac_localization/lib/isaac_localization
+
+Installed /home/kimi/dev_ws/rover_ws/build/isaac_localization
+running symlink_data
+creating /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/ament_index/resource_index/packages
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_localization/resource/isaac_localization -> /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/ament_index/resource_index/packages
+symbolically linking /home/kimi/dev_ws/rover_ws/build/isaac_localization/package.xml -> /home/kimi/dev_ws/rover_ws/install/isaac_localization/share/isaac_localization

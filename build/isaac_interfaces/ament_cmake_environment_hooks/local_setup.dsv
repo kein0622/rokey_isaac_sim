@@ -1,0 +1,4 @@
+source;share/isaac_interfaces/environment/ament_prefix_path.sh
+source;share/isaac_interfaces/environment/library_path.sh
+source;share/isaac_interfaces/environment/path.sh
+source;share/isaac_interfaces/environment/pythonpath.sh
