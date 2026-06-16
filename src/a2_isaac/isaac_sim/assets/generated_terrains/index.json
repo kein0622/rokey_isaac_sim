@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-27T09:13:29+00:00",
+  "terrains": [
+    {
+      "id": "terrain_00001",
+      "split": "train",
+      "difficulty": 0.477,
+      "seed": 12345
+    },
+    {
+      "id": "terrain_00002",
+      "split": "train",
+      "difficulty": 0.483,
+      "seed": 23456
+    },
+    {
+      "id": "terrain_00003",
+      "split": "train",
+      "difficulty": 0.48,
+      "seed": 99
+    },
+    {
+      "id": "terrain_00004",
+      "split": "train",
+      "difficulty": 0.493,
+      "seed": 54321
+    },
+    {
+      "id": "terrain_00005",
+      "split": "train",
+      "difficulty": 0.477,
+      "seed": 77777
+    },
+    {
+      "id": "terrain_00006",
+      "split": "train",
+      "difficulty": 0.497,
+      "seed": 31415
+    },
+    {
+      "id": "terrain_00007",
+      "split": "train",
+      "difficulty": 0.474,
+      "seed": 86420
+    },
+    {
+      "id": "terrain_00008",
+      "split": "train",
+      "difficulty": 0.485,
+      "seed": 11235
+    },
+    {
+      "id": "terrain_00009",
+      "split": "train",
+      "difficulty": 0.478,
+      "seed": 92736
+    },
+    {
+      "id": "terrain_00010",
+      "split": "train",
+      "difficulty": 0.483,
+      "seed": 48151
+    },
+    {
+      "id": "terrain_00011",
+      "split": "train",
+      "difficulty": 0.481,
+      "seed": 63829
+    },
+    {
+      "id": "terrain_00012",
+      "split": "train",
+      "difficulty": 0.486,
+      "seed": 74163
+    },
+    {
+      "id": "terrain_00013",
+      "split": "train",
+      "difficulty": 0.478,
+      "seed": 58394
+    },
+    {
+      "id": "terrain_00014",
+      "split": "train",
+      "difficulty": 0.492,
+      "seed": 20001
+    },
+    {
+      "id": "terrain_00015",
+      "split": "train",
+      "difficulty": 0.49,
+      "seed": 39281
+    },
+    {
+      "id": "terrain_00016",
+      "split": "train",
+      "difficulty": 0.484,
+      "seed": 55500
+    },
+    {
+      "id": "terrain_00017",
+      "split": "train",
+      "difficulty": 0.478,
+      "seed": 17364
+    },
+    {
+      "id": "terrain_00018",
+      "split": "train",
+      "difficulty": 0.49,
+      "seed": 82647
+    },
+    {
+      "id": "terrain_00019",
+      "split": "train",
+      "difficulty": 0.478,
+      "seed": 99999
+    },
+    {
+      "id": "terrain_00020",
+      "split": "train",
+      "difficulty": 0.478,
+      "seed": 31622
+    },
+    {
+      "id": "terrain_00021",
+      "split": "train",
+      "difficulty": 0.482,
+      "seed": 14142
+    },
+    {
+      "id": "terrain_00022",
+      "split": "train",
+      "difficulty": 0.485,
+      "seed": 27182
+    },
+    {
+      "id": "terrain_00023",
+      "split": "train",
+      "difficulty": 0.476,
+      "seed": 23023
+    },
+    {
+      "id": "terrain_00024",
+      "split": "train",
+      "difficulty": 0.358,
+      "seed": 24024
+    },
+    {
+      "id": "terrain_00025",
+      "split": "train",
+      "difficulty": 0.32,
+      "seed": 25025
+    },
+    {
+      "id": "terrain_00026",
+      "split": "train",
+      "difficulty": 0.314,
+      "seed": 26026
+    },
+    {
+      "id": "terrain_00027",
+      "split": "train",
+      "difficulty": 0.316,
+      "seed": 27027
+    },
+    {
+      "id": "terrain_00028",
+      "split": "train",
+      "difficulty": 0.307,
+      "seed": 28028
+    },
+    {
+      "id": "terrain_00029",
+      "split": "train",
+      "difficulty": 0.307,
+      "seed": 29029
+    },
+    {
+      "id": "terrain_00030",
+      "split": "train",
+      "difficulty": 0.308,
+      "seed": 30030
+    }
+  ]
+}
